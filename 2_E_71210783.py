@@ -4,17 +4,17 @@ suhu = float(input("Masukan suhu tubuh Anda : "))
 
 # suhu rendah
 
-if suhu <= 32:
+if suhu < 32:
     print("Anda kedinginan! Silahkan cari sesuatu yang hangat!")
 
 # suhu normal
           
-elif (suhu == 32) and (suhu < 37,6):
+elif (suhu == 32) and (suhu <= 37,5):
     print("Suhu Anda normal!")
 
 # suhu tinggi
 
-elif (suhu == 37,6) and (suhu <= 50):
+elif (suhu == 37,5) or (suhu < 50):
     print("Anda demam! Jangan berpergian ke tempat fasilitas umum.")
 
 # suhu tidak normal
